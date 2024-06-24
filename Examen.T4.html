@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/estilost4.css">
+    <title>Perfil Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .profile-container {
+            display: flex;
+            flex-grow: 1;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .photo-section {
+            flex: 1;
+            max-width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .text-section {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .header-container {
+            border: 20px solid #ffcc00;
+            padding: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .header {
+            font-size: 2em;
+            color: #333;
+            margin: 0;
+        }
+        .greeting {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #333;
+        }
+        .description {
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .description p {
+            margin: 10px 0;
+        }
+        .description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .description ul li {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            padding: 20px 0;
+            background-color: black;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: auto;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="profile-container">
+        <div class="photo-section">
+            <div class="profile-photo">
+                <img src="nayeli.jpg;" alt="Foto de perfil"> 
+            </div>
+        </div>
+        <div class="text-section">
+            <div class="header-container">
+                <div class="greeting" style="text-align: right; margin-top: 10px; font-size: 0.9em;">¡Hola! Bienvenidos a mi página personal</div>
+                <div class="header"> <strong>Nayeli Salcedo Julcamoro</strong></div>
+            </div>
+            <div class="description">
+                <p>Soy Nayeli Salcedo Julcamoro, una persona apasionada y dedicada con una mentalidad orientada al éxito. Me caracterizo por mi notable capacidad de adaptación y resistencia, lo que me permite afrontar los retos que se han ido presentado con una actitud optimista y proactiva. Mi fascinación por la tecnología me motiva a mantenerme actualizada y a mejorar constantemente mis habilidades ademas creo firmemente en la importancia de seguir creciendo y aprendiendo en todos los aspectos de mi vida.</p>
+
+                <p><strong>En el curso de Informática IV, adquirí conocimientos fundamentales sobre el desarrollo web utilizando HTML. Hemos explorado en detalle la estructura y diseño de páginas web, empleando etiquetas, atributos y elementos para crear contenido de manera efectiva y atractiva. La práctica constante con sublime text, html me permitió familiarizarme con sus funciones avanzadas y atajos, lo que mejoró notablemente mi eficiencia y precisión al programar. Este proceso de aprendizaje me ha brindado una sólida base para seguir creciendo en el campo del desarrollo web y afrontar nuevos desafíos con confianza.</strong></p>
+            </div>
+        </div>
+    </div>
+       <footer>
+        <p>&#64; Nayeli Salcedo Julcamoro.</p>
+    </footer>
+</body>
+</html>
